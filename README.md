@@ -41,6 +41,10 @@ The analysis of the election show that:
  - The winner of the election was:
   - Diana DeGette, who dominated the election with a "73.8%" of the vote total and "272,892" number of votes.
 
-## Challenge Overview
+The results of this analysis was written and stored in a txt file and its shown in the image below.
 
-## Challenge Summary
+### Election - Audit Results
+![Colorado election analysis](./Resources/Election_results.PNG) 
+
+## Election - Audit Summary
+In this challenge we were asked to analyse the ***"election_results.csv"*** and use Python skills, like dictionaries, tuples, list and loops in order to determine the relevant insights of the local congressional election. This could be useful election commission because this is a way to automatize the process and make it more efficient and fast. Some additions that could be made to the code could be to adapt the variables to display the results of the State elections or even the Federal inputs, it could also have more columns with extra information of the population, like age, sex or ethnicity that could be helpful for population analysis.
