@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Project Overview
-A Colorado Board of Elections employeee has given you the following task to complete the election audit of a recent local congressional election.
+A Colorado Board of Elections employeee has given you the following task to complete the election audit of a recent local congressional election:
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
@@ -17,7 +17,7 @@ A Colorado Board of Elections employeee has given you the following task to comp
 - Data Source: election_results.csv
 - Software: Python 3.9.5, Visual Studio Code, 1.58.0
 
-## Summary
+## Summary (Election - Audit Results)
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - There were three different counties:
@@ -29,7 +29,7 @@ The analysis of the election show that:
   - The vote turnout of the county "Denver" was "82.8%" of the total of votes with "306,055" number of votes.
   - The vote turnout of the county "Arapahoe" was "6.7%" of the total of votes with "24,801" number of votes.
 - The county with the largest vote turnout was:
-  - Denver with an "82.8%" of the total of votes and with "306,055" votes.
+  - **Denver** with an **"82.8%"** of the total of votes and with **"306,055"** votes.
 - The candidates were:
   - Charles Casper Stockham
   - Diana DeGette
@@ -39,7 +39,7 @@ The analysis of the election show that:
   - Diana DeGette received "73.8%" of the vote total with "272,892" number of votes.
   - Raymon Anthony Doane received "3.1%" of the vote total with "11,606" number of votes.
  - The winner of the election was:
-  - Diana DeGette, who dominated the election with a "73.8%" of the vote total and "272,892" number of votes.
+  - **Diana DeGette**, who dominated the election with a **"73.8%"** of the vote total and **"272,892"** number of votes.
 
 The results of this analysis was written and stored in a txt file and its shown in the image below.
 
@@ -47,4 +47,4 @@ The results of this analysis was written and stored in a txt file and its shown 
 ![Colorado election analysis](./Resources/Election_results.PNG) 
 
 ## Election - Audit Summary
-In this challenge we were asked to analyse the ***"election_results.csv"*** and use Python skills, like dictionaries, tuples, list and loops in order to determine the relevant insights of the local congressional election. This could be useful election commission because this is a way to automatize the process and make it more efficient and fast. Some additions that could be made to the code could be to adapt the variables to display the results of the State elections or even the Federal inputs, it could also have more columns with extra information of the population, like age, sex or ethnicity that could be helpful for population analysis.
+In this challenge we were asked to analyse the ***"election_results.csv"*** and use Python skills, like dictionaries, tuples, lists and loops in order to determine the relevant insights of the local congressional election. This could be useful election commission because this is a way to automatize the process and make it more efficient and fast. Some additions that could be made to the code could be to adapt the variables to display the results of the State elections or even on the federal level, it could also have more columns with extra information of the population, like age, sex or ethnicity that could be helpful for population analysis. Also the code coul be modified to get what percentage of votes each county had for certain candidate adding an extra if statement with the **candidate_name** variable.
